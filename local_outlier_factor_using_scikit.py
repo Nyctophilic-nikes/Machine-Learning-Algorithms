@@ -1,5 +1,8 @@
 import pandas as pd
 from scipy.io import arff
+from sklearn.neighbors import LocalOutlierFactor
+import numpy as np
+
 data = arff.loadarff("C:\\Users\\HP\\SML\\Sample data\\ALOI.arff")
 
 #Load data
